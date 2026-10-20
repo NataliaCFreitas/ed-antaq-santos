@@ -1,0 +1,51 @@
+﻿# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Arquivos de dados
+data/raw/**
+data/silver/**
+data/gold/**
+data/database/**
+
+# Preservar a estrutura
+!data/raw/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/database/.gitkeep
+
+# Bancos SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/**
+!logs/.gitkeep
+*.log
+
+# Arquivos temporarios
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Configuracoes locais
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
